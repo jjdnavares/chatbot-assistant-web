@@ -1,0 +1,92 @@
+<div class="chat-app">
+  <div class="main-2">
+    <!-- <select class="airid-dropdownvalue">
+      <option value="2613" style="color:black">2613</option>
+      <option value="2700" style="color:black">2700</option>
+    </select> -->
+    <mat-form-field [color]="'accent'" class="airid-dropdownvalue">
+      <mat-select class="airdrop" placeholder="Select AIRID/Application" [(ngModel)]="air"
+        (ngModelChange)="onSelectAIR()">
+        <mat-option class="airdrop" *ngFor="let airid of airidList" [value]="airid.value">
+          {{airid.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="container">
+      <div class="progress-bar" *ngIf="showLoader">
+        <mat-progress-bar mode="query"></mat-progress-bar>
+      </div>
+      <app-carousel [slides]="slides" [contents]="serverListByAir" *ngIf="!showLoader"></app-carousel>
+    </div>
+    <!-- <div class="container">
+    <app-carousel [slides]="slides"></app-carousel>
+  </div> -->
+  </div>
+  <div class="main">
+    <ul class="chat-feed" #chatFeed>
+      <li class="chat-feed-list" *ngFor="let thread of feedThread;index as indexOfelement;">
+
+        <div class="threads user-feed-profile" *ngIf="thread.role === 'user'">
+          <div class="content">{{unshowAppendedLastInstruction(thread.content)}}</div>
+          <div class="icon"><mat-icon><img src={{currentUser.Profile}} class="avatar"></mat-icon></div>
+        </div>
+
+        <div class="threads assistant-feed-profile" *ngIf="thread.role === 'assistant'">
+          <div class="threads assistant-feed-profile chat-content">
+            <div class="icon">
+              <img id="logo" src="/assets/intelliops-192x192.png" alt="chat-icon">
+            </div>
+            <div class="content" [innerHTML]="sanitizeHtml(thread.content)"></div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="bubble">
+      <button type="button" class="bubble-button" (click)="getLongRunning()">
+        <div class="bubble-btn-content">
+          <b>Query Long Running</b>
+          <span>transactions that affects my database performance</span>
+        </div>
+      </button>
+
+      <button type="button" class="bubble-button" (click) = "showserverhealth()">
+        <div class="bubble-btn-content">
+          <b>Show server health</b>
+          <span>within my application</span>
+        </div>
+      </button>
+
+      <button type="button" class="bubble-button" (click)="Recommendations()">
+        <div class="bubble-btn-content">
+          <b>Give recommendations</b>
+          <span>for the servers that has action required</span>
+        </div>
+      </button>
+
+      <button type="button" class="bubble-button" (click)="Problem()">
+        <div class="bubble-btn-content">
+          <b>What is the problem</b>
+          <span>with my server</span>
+        </div>
+      </button>
+    </div>
+
+    <div class="bottom-section">
+      <div class="chat-input-container">
+        <!-- <input id="chatInput" (keyup.enter)="submit(chatInput.value)" placeholder="Type Your Message..." #chatInput/> -->
+        <textarea id="chatInput" (keyup.enter)="submit(chatInput.value)" tabindex="0" data-id="root" rows="1"
+          placeholder="Message intelliOps..." #chatInput></textarea>
+
+        <button type="button" class="submit-icon" (click)="submit(chatInput.value)">
+          <mat-icon *ngIf="!isWaitingResponse" aria-hidden="false" aria-label="home icon" fontIcon="send"></mat-icon>
+          <mat-icon *ngIf="isWaitingResponse">block</mat-icon>
+        </button>
+
+        <button type="button" class="delete-icon" title="Clear chat history" (click)="newChat()">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

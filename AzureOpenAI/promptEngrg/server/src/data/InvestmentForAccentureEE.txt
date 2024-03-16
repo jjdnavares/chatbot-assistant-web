@@ -1,0 +1,103 @@
+Investments for Accenture Employees
+
+Many people use the term 'investment' rather loosely for a number of things, despite not knowing even the basics of investing.
+
+What is an Investment?
+
+Investopedia defines an investment as “an asset or item that is purchased with the hope that it will generate income or will appreciate in the future.” Based on this investment meaning, there are two keywords to remember: time and appreciation.  The goal of any investment vehicle is to grow your money over time.
+
+What investment channels are available to you as an Accenture employee?
+
+1. Employee Share Purchase Plan (ESPP) - Allows you to contribute up to 10 percent of your monthly earnings in the fund. Your money is accumulated over a 6-month period, after which your funds will be used to buy Class A Accenture shares at a 15 percent discount.
+
+2. Staff Provident Fund Voluntary Contribution (SPF VC) - Allows you to voluntarily contribute up to 20 percent of your basic monthly salary. Your voluntary contribution/participation in the fund means you allow Accenture's Pension Fund to include your personal funds in the fund's investment activities managed by our Trustee Banks.
+
+How does the Trustee Bank invest your Voluntary Contributions?
+
+The Accenture Pension fund is invested by Trustee Banks in various financial instruments, which may include government securities, corporate bonds, mutual funds, loans, and the like.  These investments carry risks and have the potential for both gain or loss.  Past performance is not necessarily indicative of future results. Thus, there is no guarantee of any specific outcome or profit. There is no guarantee that you will not experience any negative income or that you will not receive less than the amount you contributed as your participation in the fund.
+
+Accenture is not responsible nor does guarantee the performance of the fund, or any investments or investment instruments in which the fund, including your voluntary contribution, if applicable, had been invested.
+
+What do unrealized /realized gains or losses mean?
+
+In investments, it is important to understand the difference between realized / unrealized gains or losses.
+
+*Realized gains or losses refer to profits or losses from completed transactions. When an asset (e.g., stock, bond) is sold, the gain or loss becomes realized based on the difference between the value of the asset upon purchase and the value of the asset upon sale.
+
+*Unrealized gains or losses is also referred to as “paper” profit or loss because it is recorded on paper but has not actually been realized.  The value of an investment can fluctuate (i.e., go up or down) depending on a number of factors which include news, current events, and overall market conditions.  Any unrealized gains or losses become realized when the investment is sold or effectively become realized when you withdraw from the fund.
+
+
+What is the difference between Partial and Full Withdrawal of an employee's SPF VC?
+
+Type of Withdrawal: Partial withdrawal
+  Guidelines: You may withdraw a minimum of PHP5,000. If your total voluntary contribution balance is less than PHP5,000 it will be considered a full withdrawal.
+  Withdrawal Proceeds Computation: You will receive in full your elected withdrawal amount; your remaining balance and any income/loss is retained as investment in your SPF VC.
+
+
+Type of Withdrawal: Full withdrawal
+  Guidelines: This will automatically cancel your voluntary contribution enrollment. You may reapply in the next cycle. Withdrawals will be credited to your payroll account on the 20th day of the following month.
+  Withdrawal Proceeds Computation: You will get your full SPF VC balance, less or net of any income/loss.
+
+Frequently Asked Questions and Answer
+
+What is the return on investment and projected earnings if I will participate in the Staff Provident Fund voluntary contribution?
+- The value of investments goes up or down over time depending on overall market conditions.  The Pension fund is invested by Accenture's Trustees in various financial instruments which may include government securities, corporate bonds, mutual funds, loans, and the like.  These investments carry risks and have the potential for both gain or loss.  Past performance is not necessarily indicative of future results. Thus, there is no guarantee of any specific outcome or profit. There is no guarantee that you will not experience any negative income or that you will not receive less than the amount you contributed as your participation in the fund.
+
+How is the tax on income from my SPF VC being computed?
+- Final tax on savings income of 20 percent is applicable to SPF income unless there is a BIR-approved tax exemption of the fund.
+
+What is the difference between Debit, Credit, Income and Contribution in the mySPF Tool?
+- Debit pertains to adjustments/error made in internal booking or loss allocation, if applicable. Credit pertains to additional contribution made to your account or income earned, if applicable.
+
+Can I withdraw the income of my voluntary contributions?
+- Yes, income withdrawal is subject to final tax of 20 percent unless there is a BIR-approved tax exemption of the fund.
+
+For Questions or Clarifications log a ticket in MyRequests at https://myrequests.accenture.com/ under Ask an HR Question.
+
+For further information on Employee Share Purchase Plan (ESPP) including relevant taxation information, please visit the country-specific information in myHoldings at https://myholdings.accenture.com/.
+
+
+More details about SPF Voluntary Contribution:
+Overview
+The company has a staff provident fund to help employees plan for their financial future. Employees are covered by the plan immediately upon commencing work.
+
+Accenture provides employees an option to contribute no more than 20 percent of their monthly salary, amount will then be automatically deducted from the employee's post-tax salary. This arrangement provides employees an opportunity to save.
+
+Policies
+- Contributing to the fund is meant as a long-term investment. If you intend to keep your money for a short period of time only, please consider other investments, which would allow for such.
+- Employees who leave the company for any reason will cease to be a member of the retirement plan. The company will not be maintaining Employee's participant account for their voluntary contributions.Contributions, along with the income attributed to said contributions, will therefore be returned upon employees separation.
+- Should an employee fail to claim his/her Employee's contribution within 3 years upon separation with the company, then the company reserves the right to forfeit the fund in accordance with the Plan Rules.
+
+Eligibility
+This applies to all regular and probationary employees in all career tracks and levels.
+
+Voluntary contribution enrollment will be automatically cancelled on the day the employee is effectively tagged as GCP or P44 and when they go on Leave of Absence. Upon return from GCP or LOA, employee may re-enroll on the next open period.
+
+Employer contribution to the fund
+*Note: The company also contributes a specific amount to the fund, this is called Firm Contribution, please see below for your reference:
+
+- For employees with start date of May 1, 2014 and onwards, the company contributes to the fund an amount equivalent to 6% of your monthly gross basic salary.
+- For CF and ATCP employees hired before May 1, 2014, the company contributes to the fund an amount equivalent to 8% of your monthly gross basic salary.
+- For Cx-Ops employees hired before May 1, 2014, the company contributes to the fund an amount equivalent to 6% of your monthly gross basic salary.
+
+How to enroll
+Step 1 - Submit SPF Voluntary Enrollment Application to Philippine Employee Self-Service Hub
+Enrollment for SPF voluntary contribution is open only twice a year. Please refer to the table below for details on enrollment period and effective start of contribution.
+| Enrollment Period | Start of Contribution |
+|---|---|
+| April 1 to 30 | May 15 |
+| October 1 to 31 | November 15 |
+
+Step 2 - Receive email notification on successful enrollment
+You will receive an email notification from the Benefits Team once your SPF Voluntary Contribution enrollment has been deemed successful. You may view your contributions through the SOA Page.
+
+How to withdraw
+Step 1 - Submit SPF Withdrawal Application to Philippine Employee Self-Service Hub
+Withdrawal for SPF voluntary contribution is open only twice a year. Please see the table below for the details on request period and release of proceeds.
+| Withdrawal Request Period | Release of Proceeds |
+|---|---|
+| April 1 to 30 | May 20 |
+| October 1 to 31 | November 20 |
+
+Step 2 - Receive email notification on successful release of withdrawal
+You will receive an email notification from the Benefits Team once your SPF Withdrawal Application has been released.

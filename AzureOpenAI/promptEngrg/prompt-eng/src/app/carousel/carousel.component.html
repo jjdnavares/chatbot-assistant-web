@@ -1,0 +1,93 @@
+<!-- carousel -->
+<div class="title">INSIGHTS AND RECOMMENDATIONS</div>
+<div class="carousel">
+  <!-- controls -->
+  <div class="chevron chev-left">
+    <button class="control prev" (click)="onPreviousClick()">
+      <span class="arrow left"></span>
+    </button>
+  </div>
+  <!-- slides -->
+  <div class="card-slides">
+    <ng-container *ngFor="let slide of slides; let i = index">
+      <div class="card-container" @carouselAnimation *ngIf="i === currentSlide">
+        <div class="card">
+          <mat-card-header class="card-header">
+            <div mat-card-avatar class="card-header-image"></div>
+            <div class="card-header-legend">
+              <mat-card-title>
+                <mat-chip-listbox (change)="onHealthChange($event)">
+                  <!-- <mat-chip-option>
+                    All
+                  </mat-chip-option> -->
+                  <mat-chip-option class="{{count.Health}}" *ngFor="let count of _data; let x = index">
+                    {{count.Health}}
+                  </mat-chip-option>
+                </mat-chip-listbox>
+              </mat-card-title>
+            </div>
+          </mat-card-header>
+
+          <div *ngFor="let content of _tempContents">
+            <mat-card-content class="card-content" *ngIf="content.Type === type" [ngClass]="setBorder(content.Health)">
+              <div class="health-icon">
+                <mat-icon class="health-icon-error" *ngIf="content.Health === 'Critical'">error</mat-icon>
+                <mat-icon class="health-icon-warning" *ngIf="content.Health === 'Unhealthy'">warning</mat-icon>
+              </div>
+              <div class="flip-card-inner">
+                <div class="flip-card-front" [ngClass]="setBorder2(content.Health)">
+                  <mat-tab-group>
+                    <mat-tab label="Server Details">
+                      <div class="flip-card-front-details">
+                        <div class="flip-card-front-details-left">
+                          <div class="card-dets">
+                            <mat-icon>computer</mat-icon>
+                            <span>Name: {{content.Name}}</span>
+                          </div>
+                          <div class="card-dets">
+                            <mat-icon>gradient</mat-icon>
+                            <span>Type: {{content.Type}}</span>
+                          </div>
+                          <div class="card-dets">
+                            <mat-icon>chrome_reader_mode</mat-icon>
+                            <span>OS Version: {{content.WindowsVerion}}</span>
+                          </div>
+                        </div>
+
+                        <div class="flip-card-front-details-right">
+                          <div class="card-dets">
+                            <mat-icon>archive</mat-icon>
+                            <span>SQL Version: {{content.SQLVersion}}</span>
+                          </div>
+                          <div class="card-dets">
+                            <mat-icon>dns</mat-icon>
+                            <span>CPU: {{content.CPU}}</span>
+                          </div>
+                          <div class="card-dets">
+                            <mat-icon>memory</mat-icon>
+                            <span>Memory: {{content.Memory}}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </mat-tab>
+                    <mat-tab label="Insights">
+                      <div [innerHTML]="sanitizeHtml(content.Insights)"></div>
+                    </mat-tab>
+                    <mat-tab label="Recommendations">
+                      <div [innerHTML]="sanitizeHtml(content.Recommendations)"></div>
+                    </mat-tab>
+                  </mat-tab-group>
+                </div>
+              </div>
+            </mat-card-content>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="chevron chev-right">
+    <button class="control next" (click)="onNextClick()">
+      <span class="arrow right"></span>
+    </button>
+  </div>
+</div>

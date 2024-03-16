@@ -1,0 +1,67 @@
+<div class="setting">
+
+  <section class="main">
+
+    <div class="header">Settings
+      <span></span>
+    
+    </div> 
+    <div class="card-container">           
+                  
+   
+    
+            <mat-card class="card">
+              
+              <mat-card-header class="card-header">
+                <div mat-card-avatar class="card-header-image"></div>
+                <mat-card-title>Text-To-Speech</mat-card-title>
+                <mat-card-subtitle></mat-card-subtitle>
+              </mat-card-header>
+
+              <mat-card-content class="card-content">
+
+                <section class="section">
+                  <mat-slide-toggle (change)="onValChange($event)"
+                      class="toggle"
+                      [color]="color"
+                      [checked]="checked"
+                      [disabled]="disabled">
+                      {{checked}}
+                  </mat-slide-toggle>
+                </section>           
+               
+              </mat-card-content>
+      
+            </mat-card>
+
+            <mat-card class="card">
+              
+              <mat-card-header class="card-header">
+                <div mat-card-avatar class="card-header-image"></div>
+                <mat-card-title>Developer Tools</mat-card-title>
+                <mat-card-subtitle></mat-card-subtitle>
+              </mat-card-header>
+
+              <mat-card-content class="card-content">
+
+                <section class="section">
+                  <mat-slide-toggle (change)="devToolToggle($event)"
+                      class="toggle"
+                      [color]="color"
+                      [checked]="isDevToolEnabled"
+                      [disabled]="disabled">
+                      {{isDevToolEnabled}}
+                  </mat-slide-toggle>
+                </section>           
+               
+              </mat-card-content>
+      
+            </mat-card>
+
+            
+                   
+  </div>
+  </section>
+</div>
+
+
